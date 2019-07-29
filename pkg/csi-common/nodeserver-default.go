@@ -63,3 +63,7 @@ func (ns *DefaultNodeServer) NodeGetCapabilities(ctx context.Context, req *csi.N
 func (ns *DefaultNodeServer) NodeGetVolumeStats(ctx context.Context, in *csi.NodeGetVolumeStatsRequest) (*csi.NodeGetVolumeStatsResponse, error) {
 	return nil, status.Error(codes.Unimplemented, "")
 }
+
+func (ns *DefaultNodeServer) NodeExpandVolume(ctx context.Context, in *csi.NodeExpandVolumeRequest) (*csi.NodeExpandVolumeResponse, error) {
+	return nil, status.Error(codes.Unimplemented, "")
+}
