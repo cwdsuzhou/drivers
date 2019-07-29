@@ -31,6 +31,7 @@ type CSIDriver struct {
 	nodeID  string
 	version string
 	cap     []*csi.ControllerServiceCapability
+	nodeCap []*csi.NodeServiceCapability
 	vc      []*csi.VolumeCapability_AccessMode
 }
 

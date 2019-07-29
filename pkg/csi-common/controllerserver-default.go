@@ -78,6 +78,7 @@ func (cs *DefaultControllerServer) ListSnapshots(ctx context.Context, req *csi.L
 	return nil, status.Error(codes.Unimplemented, "")
 }
 
-func (cs *DefaultControllerServer) ControllerExpandVolume(ctx context.Context, req *csi.ControllerExpandVolumeRequest) (*csi.ControllerExpandVolumeResponse, error) {
+/*func (cs *DefaultControllerServer) ControllerExpandVolume(ctx context.Context, req *csi.ControllerExpandVolumeRequest) (*csi.ControllerExpandVolumeResponse, error) {
 	return nil, status.Error(codes.Unimplemented, "")
 }
+*/
